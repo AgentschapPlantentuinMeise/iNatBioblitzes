@@ -1,0 +1,8 @@
+*.tsv
+*.db
+*.gz
+*.csv
+*.html
+inat-checkpoint.ipynb
+iNatProjDesc-checkpoint.ipynb
+apicache-py3/
