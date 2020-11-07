@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1604739364026.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "33890259",
+    "lastKnownWriteTime" : 7287422520962202146,
+    "last_content_update" : 1604739364026,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5E130FC1",
+        "caption" : "iNatProject",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=iNatProject&cache_key=5E130FC1",
+        "displayedObservations" : "2406",
+        "environment" : "",
+        "expression" : "iNatProject",
+        "object" : "iNatProject",
+        "preview" : "0",
+        "totalObservations" : "2406",
+        "variables" : "21"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
