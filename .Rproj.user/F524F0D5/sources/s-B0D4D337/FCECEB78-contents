@@ -75,3 +75,46 @@ Mode(projects$hours)
 
 # A count of all the projects used
 tally(projects)
+
+ggplot(projects, aes(month(projects$month), observers))
+
+# Observations histogram
+p1 <- ggplot(data=projects, aes(x=projects$observations)) + 
+  geom_histogram(breaks=seq(0, 2000, by=10), 
+                 col="black", 
+                 fill="green", 
+                 alpha = .2) + 
+  theme_bw() +
+  labs(title="", x="Number of observations", y="Count")
+
+# Observations histogram
+p2 <- ggplot(data=projects, aes(x=projects$species)) + 
+  geom_histogram(breaks=seq(0, 5000, by=50), 
+                 col="black", 
+                 fill="green", 
+                 alpha = .2) + 
+  theme_bw() +
+  labs(title="", x="Number of species recorded", y="")
+
+# Observations histogram
+p3 <- ggplot(data=projects, aes(x=projects$observers)) + 
+  geom_histogram(breaks=seq(0, 1000, by=10), 
+                 col="black", 
+                 fill="green", 
+                 alpha = .2) + 
+  theme_bw() +
+  labs(title="", x="Number of observers", y="Count")
+
+# Observations histogram
+p4 <- ggplot(data=projects, aes(x=projects$identifiers)) + 
+  geom_histogram(breaks=seq(0, 1000, by=10), 
+                 col="black", 
+                 fill="green", 
+                 alpha = .2) + 
+  theme_bw() +
+  labs(title="", x="Number of identifiers", y="")
+
+library(gridExtra)
+grid.arrange(p1, p2, p3, p4, nrow = 2)
+
+
