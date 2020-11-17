@@ -3,6 +3,10 @@
 *.gz
 *.csv
 *.html
+*.tif
 inat-checkpoint.ipynb
+ipynb-checkpoints\
 iNatProjDesc-checkpoint.ipynb
 apicache-py3/
+test*
+.Rproj.user\
